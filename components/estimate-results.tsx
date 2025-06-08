@@ -63,7 +63,7 @@ export function EstimateResults() {
       </div>
 
       {/* Area Information */}
-      <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+      <div className="flex items-center justify-between p-4 rounded-lg">
         <div className="flex items-center gap-2">
           <Square className="h-5 w-5 text-gray-600" />
           <span className="font-medium text-gray-900">Area</span>
@@ -135,7 +135,7 @@ export function EstimateResults() {
         <button className="flex-1 bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-4 rounded-lg transition-colors">
           Get Detailed Quote
         </button>
-        <button className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium py-3 px-4 rounded-lg transition-colors">
+        <button className="flex-1  font-medium py-3 px-4 rounded-lg">
           Save Estimate
         </button>
       </div>

@@ -6,25 +6,25 @@ import { Leaf } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen">
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="bg-green-600 p-2 rounded-lg">
-                <Leaf className="h-6 w-6 text-white" />
+              <div className="p-2 rounded-lg">
+                <span className="text-2xl">🇺🇸</span>
               </div>
               <div>
                 <h1 className="text-xl font-bold text-gray-900">
-                  Landscaping Estimator
+                  Russell's All American Landscaping Estimate Generator
                 </h1>
                 <p className="text-sm text-gray-600">
                   Get instant cost estimates for your landscaping projects
                 </p>
               </div>
             </div>
-            <div className="text-sm text-gray-500">No login required</div>
+            <div className="text-sm">No login required</div>
           </div>
         </div>
       </header>
@@ -105,8 +105,8 @@ export default function Home() {
         {/* Features Section */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 text-center">
-            <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Leaf className="h-6 w-6 text-blue-600" />
+            <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+              <Leaf className="h-6 w-6" />
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">
               Accurate Estimates
@@ -116,8 +116,8 @@ export default function Home() {
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 text-center">
-            <div className="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
-              <span className="text-purple-600 font-bold">⚡</span>
+            <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span className="font-bold">⚡</span>
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">
               Instant Results
@@ -127,8 +127,8 @@ export default function Home() {
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 text-center">
-            <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
-              <span className="text-orange-600 font-bold">🗺️</span>
+            <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span className="font-bold">🗺️</span>
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">
               Satellite Mapping
@@ -138,8 +138,8 @@ export default function Home() {
             </p>
           </div>
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6 text-center">
-            <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
-              <span className="text-green-600 font-bold">🔓</span>
+            <div className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span className="font-bold">🔓</span>
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">
               No Login Required
@@ -152,13 +152,10 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-gray-200 mt-16">
+      <footer className="border-t border-gray-200 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-center text-gray-600">
-            <p className="text-sm">
-              © 2024 Landscaping Estimator. Built with Next.js, Mapbox, and
-              Supabase.
-            </p>
+          <div className="text-center">
+            <p className="text-sm">© 2025 Negro Industries</p>
           </div>
         </div>
       </footer>
